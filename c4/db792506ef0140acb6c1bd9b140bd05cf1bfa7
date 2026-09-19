@@ -1,0 +1,22 @@
+app/build.gradle.kts
+  s_c3cfccecb8158d::t_c02a4d96a279f6 29-31
+  s_c3cfccecb8158d::t_529048f05a73c6 7-12
+tools/nas_publish.py
+  s_c3cfccecb8158d::t_b43e99efc41201 19
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "c4db792506ef0140acb6c1bd9b140bd05cf1bfa7",
+  "prompts": {},
+  "sessions": {
+    "s_c3cfccecb8158d": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "03421691-a525-45c1-a39c-5e9201796f22",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "talibfitrah <fitrahtvnl@gmail.com>"
+    }
+  }
+}
