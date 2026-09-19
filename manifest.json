@@ -1,0 +1,218 @@
+{
+  "version": 1,
+  "packs": [
+    {
+      "id": "corpus_tisa",
+      "name": "الكتب التسعة",
+      "description": "البخاري ومسلم والسنن الأربعة والدارمي والموطأ ومسند أحمد — ٥٨٬٦٨٤ رواية",
+      "file": "muhaddith_corpus_tisa.db.gz",
+      "size_gz": 66192276,
+      "size_db": 135118848,
+      "sha256_gz": "2dc6cd1c4b21f90fd51f44d163e93e13d170e614bb81b7dd7c49dde0f0f9ad35",
+      "hadiths": 58684,
+      "books": 9,
+      "parts": [
+        "http://nas.fitrahmedia.nl:5000/fsdownload/GAgNFfHp4/muhaddith_corpus_tisa.db.gz.001",
+        "http://nas.fitrahmedia.nl:5000/fsdownload/byBmoz7oL/muhaddith_corpus_tisa.db.gz.002",
+        "http://nas.fitrahmedia.nl:5000/fsdownload/8i4vLVsQR/muhaddith_corpus_tisa.db.gz.003"
+      ]
+    },
+    {
+      "id": "corpus_full",
+      "name": "الحزمة الكاملة",
+      "description": "١٤٠٠ كتاب — ٤٦٣٬٧٣٣ رواية و٤٩٬٨٤٥ راويًا",
+      "file": "muhaddith_corpus_full.db.gz",
+      "size_gz": 604156291,
+      "size_db": 922292224,
+      "sha256_gz": "778e9fd07070672daae4189a96713fa172760e1e34c099a1ff38bd701fb3d42f",
+      "hadiths": 463733,
+      "books": 1359,
+      "parts": [
+        "http://nas.fitrahmedia.nl:5000/fsdownload/dc6z5MpRI/muhaddith_corpus_full.db.gz.001",
+        "http://nas.fitrahmedia.nl:5000/fsdownload/rrs2EDT9F/muhaddith_corpus_full.db.gz.002",
+        "http://nas.fitrahmedia.nl:5000/fsdownload/nqULVvrX0/muhaddith_corpus_full.db.gz.003",
+        "http://nas.fitrahmedia.nl:5000/fsdownload/VDuBXQ3Km/muhaddith_corpus_full.db.gz.004",
+        "http://nas.fitrahmedia.nl:5000/fsdownload/CKJ26s3pk/muhaddith_corpus_full.db.gz.005",
+        "http://nas.fitrahmedia.nl:5000/fsdownload/nksrWPZ8B/muhaddith_corpus_full.db.gz.006",
+        "http://nas.fitrahmedia.nl:5000/fsdownload/zYcFZe3wE/muhaddith_corpus_full.db.gz.007",
+        "http://nas.fitrahmedia.nl:5000/fsdownload/jfkmDS1py/muhaddith_corpus_full.db.gz.008",
+        "http://nas.fitrahmedia.nl:5000/fsdownload/QrA3AQpI4/muhaddith_corpus_full.db.gz.009",
+        "http://nas.fitrahmedia.nl:5000/fsdownload/42mDxZrvn/muhaddith_corpus_full.db.gz.010",
+        "http://nas.fitrahmedia.nl:5000/fsdownload/z9GqQ8caS/muhaddith_corpus_full.db.gz.011",
+        "http://nas.fitrahmedia.nl:5000/fsdownload/lgsNHbMyt/muhaddith_corpus_full.db.gz.012",
+        "http://nas.fitrahmedia.nl:5000/fsdownload/JqR5l5sAd/muhaddith_corpus_full.db.gz.013",
+        "http://nas.fitrahmedia.nl:5000/fsdownload/zf3s9xWFJ/muhaddith_corpus_full.db.gz.014",
+        "http://nas.fitrahmedia.nl:5000/fsdownload/lrYKfFQOz/muhaddith_corpus_full.db.gz.015",
+        "http://nas.fitrahmedia.nl:5000/fsdownload/h6jWSdDPy/muhaddith_corpus_full.db.gz.016",
+        "http://nas.fitrahmedia.nl:5000/fsdownload/s5cI3iKuo/muhaddith_corpus_full.db.gz.017",
+        "http://nas.fitrahmedia.nl:5000/fsdownload/0aSOxZZuI/muhaddith_corpus_full.db.gz.018",
+        "http://nas.fitrahmedia.nl:5000/fsdownload/IGfFnRS9I/muhaddith_corpus_full.db.gz.019",
+        "http://nas.fitrahmedia.nl:5000/fsdownload/tt8dP4SMU/muhaddith_corpus_full.db.gz.020"
+      ]
+    },
+    {
+      "id": "ahkam",
+      "name": "أحكام العلماء ومختلف الحديث",
+      "description": "١٣١٬٩٠٣ حكمًا من ٥٨٦ عالمًا، و٣٤ كتابًا في مختلف الحديث والناسخ والمنسوخ والتخريج والعلل (٧٨٬٤٣٧ مقطعًا)",
+      "file": "muhaddith_ahkam.db.gz",
+      "size_gz": 91120864,
+      "size_db": 164999168,
+      "sha256_gz": "4f2f010c28de027c2ef51623597d4fdf3a180b1a03010ee8e0bfe0572234e748",
+      "hadiths": 42659,
+      "books": 34,
+      "kind": "ahkam",
+      "parts": [
+        "http://nas.fitrahmedia.nl:5000/fsdownload/P2nB5ttR0/muhaddith_ahkam.db.gz.001",
+        "http://nas.fitrahmedia.nl:5000/fsdownload/lXRri0IhH/muhaddith_ahkam.db.gz.002",
+        "http://nas.fitrahmedia.nl:5000/fsdownload/O3YSTsYet/muhaddith_ahkam.db.gz.003"
+      ],
+      "built": "2026-09-10",
+      "schema": "2"
+    },
+    {
+      "id": "shuruh3",
+      "name": "شروح الحديث وأسباب وروده وآثار الصحابة",
+      "description": "٠ حكمًا من ٦٬٦٢٨ عالمًا، و١٣٤ كتابًا (٣٥٦٬٣٩٥ مقطعًا)",
+      "file": "muhaddith_shuruh3.db.gz",
+      "size_gz": 493366065,
+      "size_db": 775090176,
+      "sha256_gz": "52660c978926378804d90fc88773782d0524954bd2c8121a8d7a49e4e9bd6a17",
+      "hadiths": 7584,
+      "books": 134,
+      "kind": "shuruh3",
+      "parts": [
+        "http://nas.fitrahmedia.nl:5000/fsdownload/TAFzN3eig/muhaddith_shuruh3.db.gz.001",
+        "http://nas.fitrahmedia.nl:5000/fsdownload/uhHqBJR2x/muhaddith_shuruh3.db.gz.002",
+        "http://nas.fitrahmedia.nl:5000/fsdownload/jxrWdcCBg/muhaddith_shuruh3.db.gz.003",
+        "http://nas.fitrahmedia.nl:5000/fsdownload/dlQuvX8rR/muhaddith_shuruh3.db.gz.004",
+        "http://nas.fitrahmedia.nl:5000/fsdownload/Ymuk307ha/muhaddith_shuruh3.db.gz.005",
+        "http://nas.fitrahmedia.nl:5000/fsdownload/QHruqxdio/muhaddith_shuruh3.db.gz.006",
+        "http://nas.fitrahmedia.nl:5000/fsdownload/16vtRuJDL/muhaddith_shuruh3.db.gz.007",
+        "http://nas.fitrahmedia.nl:5000/fsdownload/zAqo4xTrD/muhaddith_shuruh3.db.gz.008",
+        "http://nas.fitrahmedia.nl:5000/fsdownload/0guEwtP8S/muhaddith_shuruh3.db.gz.009",
+        "http://nas.fitrahmedia.nl:5000/fsdownload/LDTgwwZKg/muhaddith_shuruh3.db.gz.010",
+        "http://nas.fitrahmedia.nl:5000/fsdownload/vHbkrjmmo/muhaddith_shuruh3.db.gz.011",
+        "http://nas.fitrahmedia.nl:5000/fsdownload/TzF0fjtCa/muhaddith_shuruh3.db.gz.012",
+        "http://nas.fitrahmedia.nl:5000/fsdownload/8CpXLhHg4/muhaddith_shuruh3.db.gz.013",
+        "http://nas.fitrahmedia.nl:5000/fsdownload/iOhGqcQpW/muhaddith_shuruh3.db.gz.014",
+        "http://nas.fitrahmedia.nl:5000/fsdownload/igU8WmvZj/muhaddith_shuruh3.db.gz.015",
+        "http://nas.fitrahmedia.nl:5000/fsdownload/b7PJVJ5x3/muhaddith_shuruh3.db.gz.016",
+        "http://nas.fitrahmedia.nl:5000/fsdownload/bBsqbJSgN/muhaddith_shuruh3.db.gz.017"
+      ],
+      "built": "2026-09-13 07:42",
+      "schema": "5",
+      "min_app": 27,
+      "replaces": "shuruh"
+    },
+    {
+      "id": "shuruh",
+      "name": "شروح الحديث وأسباب وروده وآثار الصحابة (الإصدار السابق)",
+      "description": "١٣٥ كتابًا في الشروح وأسباب الورود (٣٢٤٬٢٣٥ مقطعًا)، و٢٦٦٬٢٧٥ استنباطًا لـ٥٬٩٢٦ عالمًا على ٩٬٣٧٩ حديثًا، و٨٬٠٥٣ رواية سياق",
+      "file": "muhaddith_shuruh.db.gz",
+      "size_gz": 469028390,
+      "size_db": 688656384,
+      "sha256_gz": "526087ab57376485ea6f8f18ad93e35e1c6ae5e2d474159ebb007f43b66a3ea4",
+      "hadiths": 9379,
+      "books": 135,
+      "kind": "shuruh",
+      "parts": [
+        "http://nas.fitrahmedia.nl:5000/fsdownload/MTgtdZS4r/muhaddith_shuruh.db.gz.001",
+        "http://nas.fitrahmedia.nl:5000/fsdownload/PlGJn3uPs/muhaddith_shuruh.db.gz.002",
+        "http://nas.fitrahmedia.nl:5000/fsdownload/AhEdc5Moc/muhaddith_shuruh.db.gz.003",
+        "http://nas.fitrahmedia.nl:5000/fsdownload/duF93KzU3/muhaddith_shuruh.db.gz.004",
+        "http://nas.fitrahmedia.nl:5000/fsdownload/nDx82ss4n/muhaddith_shuruh.db.gz.005",
+        "http://nas.fitrahmedia.nl:5000/fsdownload/CytZIINID/muhaddith_shuruh.db.gz.006",
+        "http://nas.fitrahmedia.nl:5000/fsdownload/4hM0WfGZL/muhaddith_shuruh.db.gz.007",
+        "http://nas.fitrahmedia.nl:5000/fsdownload/412MkG2fg/muhaddith_shuruh.db.gz.008",
+        "http://nas.fitrahmedia.nl:5000/fsdownload/3GD228M8e/muhaddith_shuruh.db.gz.009",
+        "http://nas.fitrahmedia.nl:5000/fsdownload/bgzYjtz9M/muhaddith_shuruh.db.gz.010",
+        "http://nas.fitrahmedia.nl:5000/fsdownload/A90HlEu3C/muhaddith_shuruh.db.gz.011",
+        "http://nas.fitrahmedia.nl:5000/fsdownload/M5SfX287z/muhaddith_shuruh.db.gz.012",
+        "http://nas.fitrahmedia.nl:5000/fsdownload/60SFDElEp/muhaddith_shuruh.db.gz.013",
+        "http://nas.fitrahmedia.nl:5000/fsdownload/xfaLim6FL/muhaddith_shuruh.db.gz.014",
+        "http://nas.fitrahmedia.nl:5000/fsdownload/HAYIx4UyI/muhaddith_shuruh.db.gz.015",
+        "http://nas.fitrahmedia.nl:5000/fsdownload/SnopoVf2p/muhaddith_shuruh.db.gz.016"
+      ],
+      "built": "2026-09-11 23:22",
+      "schema": "2",
+      "superseded_by": "shuruh3"
+    },
+    {
+      "id": "model_bge",
+      "name": "نموذج البحث الدلالي (BGE-M3)",
+      "description": "نموذج سطح المكتب نفسه مكمَّمًا للهاتف",
+      "kind": "model",
+      "file": "muhaddith_model_bge.bin.gz",
+      "size_gz": 236725409,
+      "size_db": 344973261,
+      "sha256_gz": "62d13cfc55f43389095ddf8194de2a54ca2daef7a6724d41a3b8e8313b2b7123",
+      "hadiths": 0,
+      "books": 0,
+      "parts": [
+        "http://nas.fitrahmedia.nl:5000/fsdownload/katctX5mB/muhaddith_model_bge.bin.gz.001",
+        "http://nas.fitrahmedia.nl:5000/fsdownload/JVYhXw0dn/muhaddith_model_bge.bin.gz.002",
+        "http://nas.fitrahmedia.nl:5000/fsdownload/zvtnNZgqO/muhaddith_model_bge.bin.gz.003",
+        "http://nas.fitrahmedia.nl:5000/fsdownload/orz0PpHyy/muhaddith_model_bge.bin.gz.004",
+        "http://nas.fitrahmedia.nl:5000/fsdownload/lZgNAi2Hg/muhaddith_model_bge.bin.gz.005",
+        "http://nas.fitrahmedia.nl:5000/fsdownload/01Tzn2fNQ/muhaddith_model_bge.bin.gz.006",
+        "http://nas.fitrahmedia.nl:5000/fsdownload/xTsFgDu7N/muhaddith_model_bge.bin.gz.007",
+        "http://nas.fitrahmedia.nl:5000/fsdownload/U4ErDSx0X/muhaddith_model_bge.bin.gz.008"
+      ]
+    },
+    {
+      "id": "vectors_tisa",
+      "name": "متجهات الكتب التسعة",
+      "description": "للبحث الدلالي مع حزمة الكتب التسعة",
+      "kind": "vectors",
+      "file": "muhaddith_vectors_tisa.bin.gz",
+      "size_gz": 33119314,
+      "size_db": 60561920,
+      "sha256_gz": "7ad75ab0bacea9e5b4b45561366eba455c942455c49d5099b5c5ced916005e9e",
+      "hadiths": 58684,
+      "books": 9,
+      "parts": [
+        "http://nas.fitrahmedia.nl:5000/fsdownload/8eGjtkbs8/muhaddith_vectors_tisa.bin.gz.001",
+        "http://nas.fitrahmedia.nl:5000/fsdownload/r5fbwU9xI/muhaddith_vectors_tisa.bin.gz.002"
+      ]
+    },
+    {
+      "id": "vectors_full",
+      "name": "متجهات الحزمة الكاملة",
+      "description": "للبحث الدلالي مع الحزمة الكاملة",
+      "kind": "vectors",
+      "file": "muhaddith_vectors_full.bin.gz",
+      "size_gz": 266819584,
+      "size_db": 478572488,
+      "sha256_gz": "647221d79a472ca8fb0f7fde02a60bfc8202a692569882e2a8a915685ac0cfbd",
+      "hadiths": 463733,
+      "books": 1400,
+      "parts": [
+        "http://nas.fitrahmedia.nl:5000/fsdownload/QwLixy4jf/muhaddith_vectors_full.bin.gz.001",
+        "http://nas.fitrahmedia.nl:5000/fsdownload/qmzOmmMdg/muhaddith_vectors_full.bin.gz.002",
+        "http://nas.fitrahmedia.nl:5000/fsdownload/wUQntkwqK/muhaddith_vectors_full.bin.gz.003",
+        "http://nas.fitrahmedia.nl:5000/fsdownload/qPynBk7ek/muhaddith_vectors_full.bin.gz.004",
+        "http://nas.fitrahmedia.nl:5000/fsdownload/8gKomlF7T/muhaddith_vectors_full.bin.gz.005",
+        "http://nas.fitrahmedia.nl:5000/fsdownload/QAJ4zPcxt/muhaddith_vectors_full.bin.gz.006",
+        "http://nas.fitrahmedia.nl:5000/fsdownload/fOggthyd4/muhaddith_vectors_full.bin.gz.007",
+        "http://nas.fitrahmedia.nl:5000/fsdownload/BIcLvxec4/muhaddith_vectors_full.bin.gz.008",
+        "http://nas.fitrahmedia.nl:5000/fsdownload/ixjvjeJqd/muhaddith_vectors_full.bin.gz.009"
+      ]
+    }
+  ],
+  "note": "الأجزاء تُجمع بالترتيب داخل التطبيق؛ sha256_gz هو بصمة الملف المجموع",
+  "source": "nas",
+  "folder": "http://nas.fitrahmedia.nl:5000/sharing/ehniFEwJg",
+  "app": {
+    "version_code": 31,
+    "version_name": "0.15.2",
+    "notes": "نكهتا nas وplay وملفات متجر Google Play",
+    "apk": {
+      "arm32": "http://nas.fitrahmedia.nl:5000/fsdownload/7nq4JCmVr/muhaddith-0.15.2-arm32.apk",
+      "arm64": "http://nas.fitrahmedia.nl:5000/fsdownload/sWvh0Qolo/muhaddith-0.15.2-arm64.apk"
+    },
+    "sha256": {
+      "arm32": "c1c29c849ec6a31262f565381a3b202446616f8f02a1f1fb5abfaf40369b4dcf",
+      "arm64": "e1d50f7bc76c7afd9195679e6543fa8ffac6e75013511a398541453f954ba7b7"
+    }
+  }
+}

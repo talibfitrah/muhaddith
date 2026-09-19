@@ -1,0 +1,19 @@
+# secrets — never commit
+keystore.properties
+*.jks
+*.keystore
+
+# corpus sources/intermediates (1.6 GB, from handover parts 05) — only the stage scripts are tracked
+/ahkam/*
+!/ahkam/run_stage*.sh
+
+# build output / local state
+.gradle/
+.kotlin/
+build/
+local.properties
+*.apk
+*.aab
+__pycache__/
+.idea/
+.DS_Store
