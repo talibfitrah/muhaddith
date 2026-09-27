@@ -165,9 +165,9 @@
       "description": "للبحث الدلالي مع حزمة الكتب التسعة",
       "kind": "vectors",
       "file": "muhaddith_vectors_tisa.bin.gz",
-      "size_gz": 33119314,
+      "size_gz": 44797144,
       "size_db": 60561920,
-      "sha256_gz": "7ad75ab0bacea9e5b4b45561366eba455c942455c49d5099b5c5ced916005e9e",
+      "sha256_gz": "9ccbc2f5b64ce2048c146a8d0dcb63904662d378e25f3065c795155ef363e0ae",
       "hadiths": 58684,
       "books": 9,
       "parts": [

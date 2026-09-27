@@ -81,7 +81,7 @@ object KnownPacks {
     // @@END_SHURUH3_CONSTANTS@@
     // @@SEMANTIC_CONSTANTS@@
     const val MODEL_PARTS = 8; const val MODEL_GZ = 236725409L; const val MODEL_RAW = 344973261L; const val MODEL_SHA = "62d13cfc55f43389095ddf8194de2a54ca2daef7a6724d41a3b8e8313b2b7123"
-    const val VT_PARTS = 2; const val VT_GZ = 33119314L; const val VT_RAW = 60561920L; const val VT_SHA = "7ad75ab0bacea9e5b4b45561366eba455c942455c49d5099b5c5ced916005e9e"
+    const val VT_PARTS = 2; const val VT_GZ = 44797144L; const val VT_RAW = 60561920L; const val VT_SHA = "9ccbc2f5b64ce2048c146a8d0dcb63904662d378e25f3065c795155ef363e0ae"
     const val VF_PARTS = 9; const val VF_GZ = 266819584L; const val VF_RAW = 478572488L; const val VF_SHA = "647221d79a472ca8fb0f7fde02a60bfc8202a692569882e2a8a915685ac0cfbd"
     // @@END_SEMANTIC_CONSTANTS@@
 

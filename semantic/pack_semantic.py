@@ -1,10 +1,17 @@
 # -*- coding: utf-8 -*-
 """يحزم حزم البحث الدلالي للهاتف: حاوية النموذج (MSBP) ومتجهات كل حزمة (MSBV v2 بوسم الحزمة)،
-ثم يضغطها gzip ويقسمها أجزاءً ≤ ٢٩ م.ب، ويكتب semantic_packs.json ويحدّث KnownPacks.kt وmanifest.json."""
-import struct, gzip, hashlib, json, os, sqlite3, subprocess, sys, numpy as np
+ثم يضغطها gzip ويقسمها أجزاءً ≤ ٢٩ م.ب، ويكتب semantic_packs.json ويحدّث KnownPacks.kt وmanifest.json.
+  python3 pack_semantic.py [model] [tisa] [full] [--data DIR] [--out DIR] [--known KnownPacks.kt]
+ما لا يُعاد حزمه يؤخذ من semantic_packs.json في المجلد الحالي، ويُقرأ manifest.json من --data ويُكتب فيه."""
+import argparse, struct, gzip, hashlib, json, os, sqlite3, numpy as np
 
-OUT = "/home/claude/muhaddith-data/parts"
-DATA = "/home/claude/muhaddith-data"
+ap = argparse.ArgumentParser()
+ap.add_argument("which", nargs="*", choices=["model", "tisa", "full"])
+ap.add_argument("--data", default="/home/claude/muhaddith-data"); ap.add_argument("--out", default=None)
+ap.add_argument("--known", default=os.path.join(os.path.dirname(os.path.abspath(__file__)), "../app/src/main/java/org/murabbie/muhaddith/data/KnownPacks.kt"))
+ARGS = ap.parse_args()
+DATA = ARGS.data
+OUT = ARGS.out or os.path.join(DATA, "parts")
 os.makedirs(OUT, exist_ok=True)
 
 def sha(path):
@@ -22,7 +29,10 @@ def gz_and_split(src, name):
             o.write(b)
     for f in os.listdir(OUT):
         if f.startswith(name + "."): os.remove(os.path.join(OUT, f))
-    subprocess.run(["split", "-b", "29m", "-d", "-a", "3", "--numeric-suffixes=1", gz, os.path.join(OUT, name + ".")], check=True)
+    # = split -b 29m -d -a 3 --numeric-suffixes=1 (بلا GNU split، فيعمل على macOS أيضًا)
+    with open(gz, "rb") as f:
+        for k, b in enumerate(iter(lambda: f.read(29 << 20), b""), 1):
+            with open(os.path.join(OUT, f"{name}.{k:03d}"), "wb") as o: o.write(b)
     parts = sorted(f for f in os.listdir(OUT) if f.startswith(name + "."))
     return {"file": name, "size_gz": os.path.getsize(gz), "size_db": os.path.getsize(src), "sha256_gz": sha(gz), "parts": parts}
 
@@ -63,7 +73,7 @@ def convert_vectors(src, dst, dataset, remap_db=None, src_db=None):
     print(f"  wrote {dst}: {n} vectors, {os.path.getsize(dst)/1e6:.1f} MB")
 
 def main():
-    which = sys.argv[1:] or ["model", "tisa", "full"]
+    which = ARGS.which or ["model", "tisa", "full"]
     info = json.load(open("semantic_packs.json")) if os.path.exists("semantic_packs.json") else {}
     if "model" in which:
         model_container("muhaddith_model_bge.bin")
@@ -76,9 +86,11 @@ def main():
     print(json.dumps({k: (v["size_gz"], len(v["parts"])) for k, v in info.items()}))
 
     # تحديث KnownPacks.kt
-    kp = "/home/claude/muhaddith-android/app/src/main/java/org/murabbie/muhaddith/data/KnownPacks.kt"
+    missing = {"model_bge", "vectors_tisa", "vectors_full"} - info.keys()
+    assert not missing, f"semantic_packs.json lacks {missing}: KnownPacks.kt would get zeroed constants"
+    kp = ARGS.known
     s = open(kp, encoding="utf-8").read()
-    def c(k): return info.get(k, {"parts": [], "size_gz": 0, "size_db": 0, "sha256_gz": ""})
+    def c(k): return info[k]
     m, t, f = c("model_bge"), c("vectors_tisa"), c("vectors_full")
     block = f'''    // @@SEMANTIC_CONSTANTS@@
     const val MODEL_PARTS = {len(m["parts"])}; const val MODEL_GZ = {m["size_gz"]}L; const val MODEL_RAW = {m["size_db"]}L; const val MODEL_SHA = "{m["sha256_gz"]}"
@@ -90,7 +102,7 @@ def main():
 
     # تحديث manifest.json
     mf = json.load(open(f"{DATA}/manifest.json", encoding="utf-8"))
-    mf["packs"] = [p for p in mf["packs"] if p["id"] in ("tisa", "full", "corpus_tisa", "corpus_full")]
+    mf["packs"] = [p for p in mf["packs"] if p["id"] not in info]   # يبقي المتون والأحكام والشروح كما هي
     for p in mf["packs"]:
         if p["id"] == "tisa": p["id"] = "corpus_tisa"
         if p["id"] == "full": p["id"] = "corpus_full"
