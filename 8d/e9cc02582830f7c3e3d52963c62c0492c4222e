@@ -1,0 +1,38 @@
+manifest.json
+  s_da28b406d9d6e9::t_417d037eaab0e1 168,170
+semantic/embed_corpus.py
+  s_da28b406d9d6e9::t_b960953002caad 69,101-103
+  s_da28b406d9d6e9::t_15d7d2c5772b8a 2-4,8-9,14,16-63,70,72-77,79-82,91-93,95-100,104-111,115-116
+  s_da28b406d9d6e9::t_91e776ae4b22ba 12-13
+  s_da28b406d9d6e9::t_f309b133f7fb85 94
+  s_da28b406d9d6e9::t_a8921f16619061 5-6,68,89-90,112-113
+  s_da28b406d9d6e9::t_82f1e5e0e036c2 67,83-88,114
+semantic/relevance_check.py
+  s_da28b406d9d6e9::t_82f1e5e0e036c2 72,74-75
+  s_da28b406d9d6e9::t_afc494dcd35b6b 73
+  s_da28b406d9d6e9::t_2641d1a9bba9a0 4
+  s_da28b406d9d6e9::t_6ebc8c15eba659 1-3,5-71,76-79
+semantic/pack_semantic.py
+  s_da28b406d9d6e9::t_c139c0a6671334 6
+  s_da28b406d9d6e9::t_afc494dcd35b6b 93
+  s_da28b406d9d6e9::t_c85003d38a13e5 3-5,8-10,12-14,32-35,76,91,105
+  s_da28b406d9d6e9::t_82f1e5e0e036c2 11,89-90
+app/src/main/java/org/murabbie/muhaddith/data/KnownPacks.kt
+  s_da28b406d9d6e9::t_417d037eaab0e1 84
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "8de9cc02582830f7c3e3d52963c62c0492c4222e",
+  "prompts": {},
+  "sessions": {
+    "s_da28b406d9d6e9": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "89b37af1-bfab-4036-995e-a32d54c9bade",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "talibfitrah <fitrahtvnl@gmail.com>"
+    }
+  }
+}
