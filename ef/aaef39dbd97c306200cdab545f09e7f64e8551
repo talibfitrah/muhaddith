@@ -1,0 +1,47 @@
+app/src/main/java/org/murabbie/muhaddith/ui/AhkamScreens.kt
+  s_da28b406d9d6e9::t_7112c05ff8fb75 290,400
+  s_da28b406d9d6e9::t_54b54c2207211d 399
+play-store/store-listing.md
+  s_da28b406d9d6e9::t_0a10b20ea5909a 1-45
+app/src/main/java/org/murabbie/muhaddith/ui/SettingsScreen.kt
+  s_da28b406d9d6e9::t_558fa84348a8e0 312,317
+  s_da28b406d9d6e9::t_c1a2d45095c4f7 309
+  s_da28b406d9d6e9::t_7b52019f204dca 310-311
+app/build.gradle.kts
+  s_da28b406d9d6e9::t_b64e33e3e414bd 1-2,10,17,22-24,109
+app/src/main/java/org/murabbie/muhaddith/data/DataPackManager.kt
+  s_da28b406d9d6e9::t_42fdbe023d684d 45-46,49,177-178
+  s_da28b406d9d6e9::t_7112c05ff8fb75 62,73-74,100-101
+play-store/icon-512.html
+  s_da28b406d9d6e9::t_0a10b20ea5909a 1-6
+play-store/privacy-policy.html
+  s_da28b406d9d6e9::t_0a10b20ea5909a 1-51,53-56,58-78,80-84,86-137
+tools/nas_publish.py
+  s_da28b406d9d6e9::t_7112c05ff8fb75 23-24
+app/src/main/java/org/murabbie/muhaddith/ui/MuhaddithViewModel.kt
+  s_da28b406d9d6e9::t_42fdbe023d684d 194-195
+play-store/feature-graphic.html
+  s_da28b406d9d6e9::t_0a10b20ea5909a 1-39
+app/src/main/java/org/murabbie/muhaddith/ui/ShuruhScreens.kt
+  s_da28b406d9d6e9::t_7112c05ff8fb75 271
+manifest.json
+  s_da28b406d9d6e9::t_e4dde505770c93 15-17,31-50,65-67,84-100,119-134,152-159,174-175,190-198,204,210-211
+app/src/play/AndroidManifest.xml
+  s_da28b406d9d6e9::t_42fdbe023d684d 6
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "efaaef39dbd97c306200cdab545f09e7f64e8551",
+  "prompts": {},
+  "sessions": {
+    "s_da28b406d9d6e9": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "89b37af1-bfab-4036-995e-a32d54c9bade",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "talibfitrah <fitrahtvnl@gmail.com>"
+    }
+  }
+}
