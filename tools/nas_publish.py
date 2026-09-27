@@ -20,8 +20,8 @@ USER, PASS = os.environ.get("NAS_USER", "manus"), os.environ.get("NAS_PASS", "")
 REMOTE_DIR = "/downloads/muhaddith"
 CONNECT = os.environ.get("NAS_CONNECT", HOST)
 BASE = f"{SCHEME}://{CONNECT}/webapi"
-# العناوين العامة في البيان تبقى على منفذ ٥٠٠٠ (ما يعرفه التطبيق المثبَّت عند المستخدمين)؛ NAS_PUBLIC يغيّرها
-PUBLIC = os.environ.get("NAS_PUBLIC", "http://nas.fitrahmedia.nl:5000")
+# العناوين العامة في البيان عبر HTTPS على النطاق الفرعي للتطبيق (نفس روابط المشاركة)؛ NAS_PUBLIC يغيّرها
+PUBLIC = os.environ.get("NAS_PUBLIC", "https://muhaddith.murabbie.org")
 
 AR = str.maketrans("0123456789", "٠١٢٣٤٥٦٧٨٩")
 def ar(x): return str(x).translate(AR)

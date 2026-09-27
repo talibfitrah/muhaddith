@@ -191,6 +191,8 @@ class MuhaddithViewModel(app: Application) : AndroidViewModel(app) {
 
     /** يفتح مثبّت النظام على الملف المنزَّل (يطلب النظام إذن «تثبيت تطبيقات غير معروفة» أول مرة) */
     fun installUpdate(ctx: android.content.Context) {
+        // نكهة المتجر: لا تثبيت APK من داخل التطبيق (سياسة Google Play)؛ الشرط ثابت وقت الترجمة فيُحذف الجسم من نسخة play
+        if (!org.murabbie.muhaddith.BuildConfig.SELF_UPDATE) return
         val path = _state.value.updateFile ?: return
         val f = java.io.File(path); if (!f.exists()) { _state.value = _state.value.copy(updateFile = null); return }
         val uri = androidx.core.content.FileProvider.getUriForFile(ctx, ctx.packageName + ".files", f)

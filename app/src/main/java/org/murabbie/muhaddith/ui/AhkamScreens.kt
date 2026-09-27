@@ -287,7 +287,7 @@ fun MkHome(vm: MuhaddithViewModel, state: UiState, onOpenBook: (Long) -> Unit, o
                 }
             }
         }
-        item { Spacer(Modifier.height(8.dp)); Text("النصوص من مكتبة OpenITI المفتوحة (طبعات الشاملة)، والأحكام مستخرَجة آليًّا من نصوص الكتب ومقابَلةٌ بمصادرها؛ فارجع إلى الموضع المذكور للتثبّت.", style = MaterialTheme.typography.labelSmall, color = MaterialTheme.colorScheme.onSurfaceVariant) }
+        item { Spacer(Modifier.height(8.dp)); Text("النصوص من مكتبة OpenITI المفتوحة (طبعات الشاملة) ومن مصوَّرات المكتبة الوقفية (كتب الألباني)، والأحكام مستخرَجة آليًّا من نصوص الكتب ومقابَلةٌ بمصادرها؛ فارجع إلى الموضع المذكور للتثبّت.", style = MaterialTheme.typography.labelSmall, color = MaterialTheme.colorScheme.onSurfaceVariant) }
     }
 }
 
@@ -396,7 +396,8 @@ fun SectionScreen(vm: MuhaddithViewModel, sectionId: Long, onBack: () -> Unit, o
                     q.forEach { h -> HadithRow(h) { onOpenHadith(h.id) } }
                 }
             }
-            Text(listOfNotNull(book?.let { "${it.title} — ${it.author}" }, book?.editor?.let { "تحقيق $it" }, book?.publisher, "النص من مكتبة OpenITI").joinToString(" · "),
+            Text(listOfNotNull(book?.let { "${it.title} — ${it.author}" }, book?.editor?.let { "تحقيق $it" }, book?.publisher,
+                if (book?.kind == "albani") "النص OCR من مصوَّرات المكتبة الوقفية" else "النص من مكتبة OpenITI").joinToString(" · "),
                 style = MaterialTheme.typography.labelSmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
             Spacer(Modifier.height(24.dp))
         }

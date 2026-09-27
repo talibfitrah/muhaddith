@@ -268,7 +268,7 @@ fun ShSectionScreen(vm: MuhaddithViewModel, sectionId: Long, onBack: () -> Unit,
                 Column { SectionLabel("الأحاديث المشروحة في هذا المقطع (${ArabicText.arabicDigits(l.size)})"); l.forEach { h -> HadithRow(h) { onOpenHadith(h.id) } } }
             }
             Text(listOfNotNull(book?.let { "${it.title} — ${it.author}" + (it.death?.let { d -> " (ت ${ArabicText.arabicDigits(d)} هـ)" } ?: "") }, book?.editor?.let { "تحقيق $it" }, book?.publisher,
-                if (book?.kind == "modern") "النص OCR من مكتبة الشاملة الوقفية" else "النص من مكتبة OpenITI").joinToString(" · "),
+                if (book?.kind == "modern") "النص OCR من مصوَّرات المكتبة الوقفية" else "النص من مكتبة OpenITI").joinToString(" · "),
                 style = MaterialTheme.typography.labelSmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
             Spacer(Modifier.height(24.dp))
         }

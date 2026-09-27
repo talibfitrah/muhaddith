@@ -42,10 +42,11 @@ class DataPackManager(private val ctx: Context, private val db: MuhaddithDatabas
     companion object {
         /**
          * بيان الحزم على NAS المؤلّف: رابط مشاركة ملف manifest.json نفسه (المجلد /downloads/muhaddith).
-         * كل جزء في هذا البيان يحمل عنوانه الكامل http://…/fsdownload/<معرّف مشاركة الجزء>/<اسمه>.
+         * يُقدَّم عبر HTTPS على النطاق الفرعي muhaddith.murabbie.org (نفس معرّف المشاركة 4ojRClfLk على NAS).
+         * كل جزء في هذا البيان يحمل عنوانه الكامل …/fsdownload/<معرّف مشاركة الجزء>/<اسمه> كما كتبه nas_publish.py.
          * مشاركة المجلد للبشر: http://nas.fitrahmedia.nl:5000/sharing/ehniFEwJg
          */
-        const val NAS_BASE_URL = "http://nas.fitrahmedia.nl:5000/sharing/4ojRClfLk/"
+        const val NAS_BASE_URL = "https://muhaddith.murabbie.org/sharing/4ojRClfLk/"
         /** الأماكن التي يبحث فيها التطبيق عن manifest.json بالترتيب؛ أول مكان يستجيب يُعتمد */
         val DEFAULT_BASE_URLS = listOf(
             NAS_BASE_URL,
@@ -58,6 +59,7 @@ class DataPackManager(private val ctx: Context, private val db: MuhaddithDatabas
         private val LEGACY_DEFAULTS = DEFAULT_BASE_URLS.drop(1)
         const val SETTING_BASE_URL = "packs_base_url"
         private const val SETTING_MIGRATED = "packs_base_url_v8"
+        private const val OLD_NAS_HTTP = "http://nas.fitrahmedia.nl:5000/sharing/4ojRClfLk/"
         private const val PART_SUFFIX = ".gz.part"
     }
 
@@ -68,6 +70,8 @@ class DataPackManager(private val ctx: Context, private val db: MuhaddithDatabas
             if (cur != null && cur.let { if (it.endsWith("/")) it else "$it/" } in LEGACY_DEFAULTS) db.putSetting(SETTING_BASE_URL, DEFAULT_BASE_URL)
             db.putSetting(SETTING_MIGRATED, "1")
         }
+        // الانتقال إلى HTTPS: العنوان الافتراضي السابق (نفس المشاركة عبر HTTP) يُستبدل بالجديد
+        if (db.setting(SETTING_BASE_URL)?.let { if (it.endsWith("/")) it else "$it/" } == OLD_NAS_HTTP) db.putSetting(SETTING_BASE_URL, DEFAULT_BASE_URL)
     }
 
     val baseUrl: String get() = (db.setting(SETTING_BASE_URL)?.takeIf { it.isNotBlank() } ?: DEFAULT_BASE_URL).let { if (it.endsWith("/")) it else "$it/" }
@@ -93,7 +97,8 @@ class DataPackManager(private val ctx: Context, private val db: MuhaddithDatabas
         for (base in candidates) {
             try {
                 val packs = fetchManifestFrom(base)
-                if (base != baseUrl) setBaseUrl(base)
+                // لا يُحفظ عنوان قديم احتياطي (بعضها HTTP): يُستعمل هذه المرة فقط ويُعاد تجريب الافتراضي في التشغيل التالي
+                if (base != baseUrl && base !in LEGACY_DEFAULTS) setBaseUrl(base)
                 lastManifest = packs
                 return packs
             } catch (e: Exception) { lastError = e }
@@ -169,6 +174,8 @@ class DataPackManager(private val ctx: Context, private val db: MuhaddithDatabas
 
     /** ينزّل APK التحديث إلى الذاكرة المؤقتة (يُشارك عبر FileProvider) ويتحقّق من بصمته إن أُعلنت؛ يعيد الملف */
     fun downloadUpdate(app: RemoteApp, onProgress: (Long, Long, Int) -> Unit): File {
+        // نكهة المتجر: لا تنزيل APK (سياسة Google Play)؛ الشرط ثابت وقت الترجمة فيُحذف الجسم من نسخة play
+        if (!org.murabbie.muhaddith.BuildConfig.SELF_UPDATE) throw IllegalStateException("التحديث من المتجر")
         val (key, url) = app.urlFor(android.os.Build.SUPPORTED_ABIS.toList()) ?: throw IllegalStateException("لا ملف تحديث لهذا الجهاز")
         val dir = File(ctx.cacheDir, "updates").apply { mkdirs() }
         dir.listFiles()?.forEach { it.delete() }

@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<title>Feature graphic — Muhaddith - المحدِّث</title>
+<!-- Render: shot.sh feature-graphic.raw.png 1024,500 feature-graphic.html, then PIL .convert('RGB'). System fonts only (macOS). -->
+<style>
+  html,body{margin:0;padding:0;width:1024px;height:500px;overflow:hidden;background:#0E5A4A}
+  .wrap{position:relative;width:1024px;height:500px;display:flex;align-items:center;gap:56px;padding:0 64px 0 72px;box-sizing:border-box}
+  .tile{flex:none;width:280px;height:280px;border-radius:56px;overflow:hidden;box-shadow:0 10px 30px #00000040}
+  .tile svg{display:block;width:280px;height:280px}
+  .text{flex:1;color:#FFFBF6}
+  .title{direction:ltr;text-align:right;font-family:Georgia,"DecoType Naskh",serif;font-size:66px;line-height:1.35;margin:0 0 14px;white-space:nowrap}
+  .title .ar{font-family:"DecoType Naskh",serif;font-size:98px}
+  .title .dash{color:#C9A227}
+  .tag{font-family:"Al Nile","Geeza Pro",serif;font-size:31px;line-height:1.6;margin:0}
+  .feat{font-family:"Al Nile","Geeza Pro",serif;font-size:27px;color:#C9A227;margin:18px 0 0}
+  .bar{position:absolute;left:0;right:0;bottom:0;height:14px;background:#C9A227}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="text">
+    <p class="title">Muhaddith <span class="dash">-</span> <span class="ar">المحدِّث</span></p>
+    <p class="tag">موسوعة الحديث النبوي على هاتفك<br>تعمل بلا إنترنت بعد تنزيل البيانات</p>
+    <p class="feat">متون · أحكام العلماء · شروح · بحث بالمعنى</p>
+  </div>
+  <div class="tile">
+    <!-- same geometry as icon-512.png: ic_launcher_fg.xml, launcher-visible 72dp area -->
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="18 18 72 72">
+      <rect x="0" y="0" width="108" height="108" fill="#FFFBF6"/>
+      <path fill="#0E5A4A" d="M54,26a22,22 0 1,0 0.1,0zM54,34a14,14 0 1,1 -0.1,0z"/>
+      <path fill="#C9A227" d="M66,66 L82,82 L76,88 L60,72z"/>
+    </svg>
+  </div>
+</div>
+<div class="bar"></div>
+</body>
+</html>

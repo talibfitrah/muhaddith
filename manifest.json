@@ -12,9 +12,9 @@
       "hadiths": 58684,
       "books": 9,
       "parts": [
-        "http://nas.fitrahmedia.nl:5000/fsdownload/GAgNFfHp4/muhaddith_corpus_tisa.db.gz.001",
-        "http://nas.fitrahmedia.nl:5000/fsdownload/byBmoz7oL/muhaddith_corpus_tisa.db.gz.002",
-        "http://nas.fitrahmedia.nl:5000/fsdownload/8i4vLVsQR/muhaddith_corpus_tisa.db.gz.003"
+        "https://muhaddith.murabbie.org/fsdownload/GAgNFfHp4/muhaddith_corpus_tisa.db.gz.001",
+        "https://muhaddith.murabbie.org/fsdownload/byBmoz7oL/muhaddith_corpus_tisa.db.gz.002",
+        "https://muhaddith.murabbie.org/fsdownload/8i4vLVsQR/muhaddith_corpus_tisa.db.gz.003"
       ]
     },
     {
@@ -28,26 +28,26 @@
       "hadiths": 463733,
       "books": 1359,
       "parts": [
-        "http://nas.fitrahmedia.nl:5000/fsdownload/dc6z5MpRI/muhaddith_corpus_full.db.gz.001",
-        "http://nas.fitrahmedia.nl:5000/fsdownload/rrs2EDT9F/muhaddith_corpus_full.db.gz.002",
-        "http://nas.fitrahmedia.nl:5000/fsdownload/nqULVvrX0/muhaddith_corpus_full.db.gz.003",
-        "http://nas.fitrahmedia.nl:5000/fsdownload/VDuBXQ3Km/muhaddith_corpus_full.db.gz.004",
-        "http://nas.fitrahmedia.nl:5000/fsdownload/CKJ26s3pk/muhaddith_corpus_full.db.gz.005",
-        "http://nas.fitrahmedia.nl:5000/fsdownload/nksrWPZ8B/muhaddith_corpus_full.db.gz.006",
-        "http://nas.fitrahmedia.nl:5000/fsdownload/zYcFZe3wE/muhaddith_corpus_full.db.gz.007",
-        "http://nas.fitrahmedia.nl:5000/fsdownload/jfkmDS1py/muhaddith_corpus_full.db.gz.008",
-        "http://nas.fitrahmedia.nl:5000/fsdownload/QrA3AQpI4/muhaddith_corpus_full.db.gz.009",
-        "http://nas.fitrahmedia.nl:5000/fsdownload/42mDxZrvn/muhaddith_corpus_full.db.gz.010",
-        "http://nas.fitrahmedia.nl:5000/fsdownload/z9GqQ8caS/muhaddith_corpus_full.db.gz.011",
-        "http://nas.fitrahmedia.nl:5000/fsdownload/lgsNHbMyt/muhaddith_corpus_full.db.gz.012",
-        "http://nas.fitrahmedia.nl:5000/fsdownload/JqR5l5sAd/muhaddith_corpus_full.db.gz.013",
-        "http://nas.fitrahmedia.nl:5000/fsdownload/zf3s9xWFJ/muhaddith_corpus_full.db.gz.014",
-        "http://nas.fitrahmedia.nl:5000/fsdownload/lrYKfFQOz/muhaddith_corpus_full.db.gz.015",
-        "http://nas.fitrahmedia.nl:5000/fsdownload/h6jWSdDPy/muhaddith_corpus_full.db.gz.016",
-        "http://nas.fitrahmedia.nl:5000/fsdownload/s5cI3iKuo/muhaddith_corpus_full.db.gz.017",
-        "http://nas.fitrahmedia.nl:5000/fsdownload/0aSOxZZuI/muhaddith_corpus_full.db.gz.018",
-        "http://nas.fitrahmedia.nl:5000/fsdownload/IGfFnRS9I/muhaddith_corpus_full.db.gz.019",
-        "http://nas.fitrahmedia.nl:5000/fsdownload/tt8dP4SMU/muhaddith_corpus_full.db.gz.020"
+        "https://muhaddith.murabbie.org/fsdownload/dc6z5MpRI/muhaddith_corpus_full.db.gz.001",
+        "https://muhaddith.murabbie.org/fsdownload/rrs2EDT9F/muhaddith_corpus_full.db.gz.002",
+        "https://muhaddith.murabbie.org/fsdownload/nqULVvrX0/muhaddith_corpus_full.db.gz.003",
+        "https://muhaddith.murabbie.org/fsdownload/VDuBXQ3Km/muhaddith_corpus_full.db.gz.004",
+        "https://muhaddith.murabbie.org/fsdownload/CKJ26s3pk/muhaddith_corpus_full.db.gz.005",
+        "https://muhaddith.murabbie.org/fsdownload/nksrWPZ8B/muhaddith_corpus_full.db.gz.006",
+        "https://muhaddith.murabbie.org/fsdownload/zYcFZe3wE/muhaddith_corpus_full.db.gz.007",
+        "https://muhaddith.murabbie.org/fsdownload/jfkmDS1py/muhaddith_corpus_full.db.gz.008",
+        "https://muhaddith.murabbie.org/fsdownload/QrA3AQpI4/muhaddith_corpus_full.db.gz.009",
+        "https://muhaddith.murabbie.org/fsdownload/42mDxZrvn/muhaddith_corpus_full.db.gz.010",
+        "https://muhaddith.murabbie.org/fsdownload/z9GqQ8caS/muhaddith_corpus_full.db.gz.011",
+        "https://muhaddith.murabbie.org/fsdownload/lgsNHbMyt/muhaddith_corpus_full.db.gz.012",
+        "https://muhaddith.murabbie.org/fsdownload/JqR5l5sAd/muhaddith_corpus_full.db.gz.013",
+        "https://muhaddith.murabbie.org/fsdownload/zf3s9xWFJ/muhaddith_corpus_full.db.gz.014",
+        "https://muhaddith.murabbie.org/fsdownload/lrYKfFQOz/muhaddith_corpus_full.db.gz.015",
+        "https://muhaddith.murabbie.org/fsdownload/h6jWSdDPy/muhaddith_corpus_full.db.gz.016",
+        "https://muhaddith.murabbie.org/fsdownload/s5cI3iKuo/muhaddith_corpus_full.db.gz.017",
+        "https://muhaddith.murabbie.org/fsdownload/0aSOxZZuI/muhaddith_corpus_full.db.gz.018",
+        "https://muhaddith.murabbie.org/fsdownload/IGfFnRS9I/muhaddith_corpus_full.db.gz.019",
+        "https://muhaddith.murabbie.org/fsdownload/tt8dP4SMU/muhaddith_corpus_full.db.gz.020"
       ]
     },
     {
@@ -62,9 +62,9 @@
       "books": 34,
       "kind": "ahkam",
       "parts": [
-        "http://nas.fitrahmedia.nl:5000/fsdownload/P2nB5ttR0/muhaddith_ahkam.db.gz.001",
-        "http://nas.fitrahmedia.nl:5000/fsdownload/lXRri0IhH/muhaddith_ahkam.db.gz.002",
-        "http://nas.fitrahmedia.nl:5000/fsdownload/O3YSTsYet/muhaddith_ahkam.db.gz.003"
+        "https://muhaddith.murabbie.org/fsdownload/P2nB5ttR0/muhaddith_ahkam.db.gz.001",
+        "https://muhaddith.murabbie.org/fsdownload/lXRri0IhH/muhaddith_ahkam.db.gz.002",
+        "https://muhaddith.murabbie.org/fsdownload/O3YSTsYet/muhaddith_ahkam.db.gz.003"
       ],
       "built": "2026-09-10",
       "schema": "2"
@@ -81,23 +81,23 @@
       "books": 134,
       "kind": "shuruh3",
       "parts": [
-        "http://nas.fitrahmedia.nl:5000/fsdownload/TAFzN3eig/muhaddith_shuruh3.db.gz.001",
-        "http://nas.fitrahmedia.nl:5000/fsdownload/uhHqBJR2x/muhaddith_shuruh3.db.gz.002",
-        "http://nas.fitrahmedia.nl:5000/fsdownload/jxrWdcCBg/muhaddith_shuruh3.db.gz.003",
-        "http://nas.fitrahmedia.nl:5000/fsdownload/dlQuvX8rR/muhaddith_shuruh3.db.gz.004",
-        "http://nas.fitrahmedia.nl:5000/fsdownload/Ymuk307ha/muhaddith_shuruh3.db.gz.005",
-        "http://nas.fitrahmedia.nl:5000/fsdownload/QHruqxdio/muhaddith_shuruh3.db.gz.006",
-        "http://nas.fitrahmedia.nl:5000/fsdownload/16vtRuJDL/muhaddith_shuruh3.db.gz.007",
-        "http://nas.fitrahmedia.nl:5000/fsdownload/zAqo4xTrD/muhaddith_shuruh3.db.gz.008",
-        "http://nas.fitrahmedia.nl:5000/fsdownload/0guEwtP8S/muhaddith_shuruh3.db.gz.009",
-        "http://nas.fitrahmedia.nl:5000/fsdownload/LDTgwwZKg/muhaddith_shuruh3.db.gz.010",
-        "http://nas.fitrahmedia.nl:5000/fsdownload/vHbkrjmmo/muhaddith_shuruh3.db.gz.011",
-        "http://nas.fitrahmedia.nl:5000/fsdownload/TzF0fjtCa/muhaddith_shuruh3.db.gz.012",
-        "http://nas.fitrahmedia.nl:5000/fsdownload/8CpXLhHg4/muhaddith_shuruh3.db.gz.013",
-        "http://nas.fitrahmedia.nl:5000/fsdownload/iOhGqcQpW/muhaddith_shuruh3.db.gz.014",
-        "http://nas.fitrahmedia.nl:5000/fsdownload/igU8WmvZj/muhaddith_shuruh3.db.gz.015",
-        "http://nas.fitrahmedia.nl:5000/fsdownload/b7PJVJ5x3/muhaddith_shuruh3.db.gz.016",
-        "http://nas.fitrahmedia.nl:5000/fsdownload/bBsqbJSgN/muhaddith_shuruh3.db.gz.017"
+        "https://muhaddith.murabbie.org/fsdownload/TAFzN3eig/muhaddith_shuruh3.db.gz.001",
+        "https://muhaddith.murabbie.org/fsdownload/uhHqBJR2x/muhaddith_shuruh3.db.gz.002",
+        "https://muhaddith.murabbie.org/fsdownload/jxrWdcCBg/muhaddith_shuruh3.db.gz.003",
+        "https://muhaddith.murabbie.org/fsdownload/dlQuvX8rR/muhaddith_shuruh3.db.gz.004",
+        "https://muhaddith.murabbie.org/fsdownload/Ymuk307ha/muhaddith_shuruh3.db.gz.005",
+        "https://muhaddith.murabbie.org/fsdownload/QHruqxdio/muhaddith_shuruh3.db.gz.006",
+        "https://muhaddith.murabbie.org/fsdownload/16vtRuJDL/muhaddith_shuruh3.db.gz.007",
+        "https://muhaddith.murabbie.org/fsdownload/zAqo4xTrD/muhaddith_shuruh3.db.gz.008",
+        "https://muhaddith.murabbie.org/fsdownload/0guEwtP8S/muhaddith_shuruh3.db.gz.009",
+        "https://muhaddith.murabbie.org/fsdownload/LDTgwwZKg/muhaddith_shuruh3.db.gz.010",
+        "https://muhaddith.murabbie.org/fsdownload/vHbkrjmmo/muhaddith_shuruh3.db.gz.011",
+        "https://muhaddith.murabbie.org/fsdownload/TzF0fjtCa/muhaddith_shuruh3.db.gz.012",
+        "https://muhaddith.murabbie.org/fsdownload/8CpXLhHg4/muhaddith_shuruh3.db.gz.013",
+        "https://muhaddith.murabbie.org/fsdownload/iOhGqcQpW/muhaddith_shuruh3.db.gz.014",
+        "https://muhaddith.murabbie.org/fsdownload/igU8WmvZj/muhaddith_shuruh3.db.gz.015",
+        "https://muhaddith.murabbie.org/fsdownload/b7PJVJ5x3/muhaddith_shuruh3.db.gz.016",
+        "https://muhaddith.murabbie.org/fsdownload/bBsqbJSgN/muhaddith_shuruh3.db.gz.017"
       ],
       "built": "2026-09-13 07:42",
       "schema": "5",
@@ -116,22 +116,22 @@
       "books": 135,
       "kind": "shuruh",
       "parts": [
-        "http://nas.fitrahmedia.nl:5000/fsdownload/MTgtdZS4r/muhaddith_shuruh.db.gz.001",
-        "http://nas.fitrahmedia.nl:5000/fsdownload/PlGJn3uPs/muhaddith_shuruh.db.gz.002",
-        "http://nas.fitrahmedia.nl:5000/fsdownload/AhEdc5Moc/muhaddith_shuruh.db.gz.003",
-        "http://nas.fitrahmedia.nl:5000/fsdownload/duF93KzU3/muhaddith_shuruh.db.gz.004",
-        "http://nas.fitrahmedia.nl:5000/fsdownload/nDx82ss4n/muhaddith_shuruh.db.gz.005",
-        "http://nas.fitrahmedia.nl:5000/fsdownload/CytZIINID/muhaddith_shuruh.db.gz.006",
-        "http://nas.fitrahmedia.nl:5000/fsdownload/4hM0WfGZL/muhaddith_shuruh.db.gz.007",
-        "http://nas.fitrahmedia.nl:5000/fsdownload/412MkG2fg/muhaddith_shuruh.db.gz.008",
-        "http://nas.fitrahmedia.nl:5000/fsdownload/3GD228M8e/muhaddith_shuruh.db.gz.009",
-        "http://nas.fitrahmedia.nl:5000/fsdownload/bgzYjtz9M/muhaddith_shuruh.db.gz.010",
-        "http://nas.fitrahmedia.nl:5000/fsdownload/A90HlEu3C/muhaddith_shuruh.db.gz.011",
-        "http://nas.fitrahmedia.nl:5000/fsdownload/M5SfX287z/muhaddith_shuruh.db.gz.012",
-        "http://nas.fitrahmedia.nl:5000/fsdownload/60SFDElEp/muhaddith_shuruh.db.gz.013",
-        "http://nas.fitrahmedia.nl:5000/fsdownload/xfaLim6FL/muhaddith_shuruh.db.gz.014",
-        "http://nas.fitrahmedia.nl:5000/fsdownload/HAYIx4UyI/muhaddith_shuruh.db.gz.015",
-        "http://nas.fitrahmedia.nl:5000/fsdownload/SnopoVf2p/muhaddith_shuruh.db.gz.016"
+        "https://muhaddith.murabbie.org/fsdownload/MTgtdZS4r/muhaddith_shuruh.db.gz.001",
+        "https://muhaddith.murabbie.org/fsdownload/PlGJn3uPs/muhaddith_shuruh.db.gz.002",
+        "https://muhaddith.murabbie.org/fsdownload/AhEdc5Moc/muhaddith_shuruh.db.gz.003",
+        "https://muhaddith.murabbie.org/fsdownload/duF93KzU3/muhaddith_shuruh.db.gz.004",
+        "https://muhaddith.murabbie.org/fsdownload/nDx82ss4n/muhaddith_shuruh.db.gz.005",
+        "https://muhaddith.murabbie.org/fsdownload/CytZIINID/muhaddith_shuruh.db.gz.006",
+        "https://muhaddith.murabbie.org/fsdownload/4hM0WfGZL/muhaddith_shuruh.db.gz.007",
+        "https://muhaddith.murabbie.org/fsdownload/412MkG2fg/muhaddith_shuruh.db.gz.008",
+        "https://muhaddith.murabbie.org/fsdownload/3GD228M8e/muhaddith_shuruh.db.gz.009",
+        "https://muhaddith.murabbie.org/fsdownload/bgzYjtz9M/muhaddith_shuruh.db.gz.010",
+        "https://muhaddith.murabbie.org/fsdownload/A90HlEu3C/muhaddith_shuruh.db.gz.011",
+        "https://muhaddith.murabbie.org/fsdownload/M5SfX287z/muhaddith_shuruh.db.gz.012",
+        "https://muhaddith.murabbie.org/fsdownload/60SFDElEp/muhaddith_shuruh.db.gz.013",
+        "https://muhaddith.murabbie.org/fsdownload/xfaLim6FL/muhaddith_shuruh.db.gz.014",
+        "https://muhaddith.murabbie.org/fsdownload/HAYIx4UyI/muhaddith_shuruh.db.gz.015",
+        "https://muhaddith.murabbie.org/fsdownload/SnopoVf2p/muhaddith_shuruh.db.gz.016"
       ],
       "built": "2026-09-11 23:22",
       "schema": "2",
@@ -149,14 +149,14 @@
       "hadiths": 0,
       "books": 0,
       "parts": [
-        "http://nas.fitrahmedia.nl:5000/fsdownload/katctX5mB/muhaddith_model_bge.bin.gz.001",
-        "http://nas.fitrahmedia.nl:5000/fsdownload/JVYhXw0dn/muhaddith_model_bge.bin.gz.002",
-        "http://nas.fitrahmedia.nl:5000/fsdownload/zvtnNZgqO/muhaddith_model_bge.bin.gz.003",
-        "http://nas.fitrahmedia.nl:5000/fsdownload/orz0PpHyy/muhaddith_model_bge.bin.gz.004",
-        "http://nas.fitrahmedia.nl:5000/fsdownload/lZgNAi2Hg/muhaddith_model_bge.bin.gz.005",
-        "http://nas.fitrahmedia.nl:5000/fsdownload/01Tzn2fNQ/muhaddith_model_bge.bin.gz.006",
-        "http://nas.fitrahmedia.nl:5000/fsdownload/xTsFgDu7N/muhaddith_model_bge.bin.gz.007",
-        "http://nas.fitrahmedia.nl:5000/fsdownload/U4ErDSx0X/muhaddith_model_bge.bin.gz.008"
+        "https://muhaddith.murabbie.org/fsdownload/katctX5mB/muhaddith_model_bge.bin.gz.001",
+        "https://muhaddith.murabbie.org/fsdownload/JVYhXw0dn/muhaddith_model_bge.bin.gz.002",
+        "https://muhaddith.murabbie.org/fsdownload/zvtnNZgqO/muhaddith_model_bge.bin.gz.003",
+        "https://muhaddith.murabbie.org/fsdownload/orz0PpHyy/muhaddith_model_bge.bin.gz.004",
+        "https://muhaddith.murabbie.org/fsdownload/lZgNAi2Hg/muhaddith_model_bge.bin.gz.005",
+        "https://muhaddith.murabbie.org/fsdownload/01Tzn2fNQ/muhaddith_model_bge.bin.gz.006",
+        "https://muhaddith.murabbie.org/fsdownload/xTsFgDu7N/muhaddith_model_bge.bin.gz.007",
+        "https://muhaddith.murabbie.org/fsdownload/U4ErDSx0X/muhaddith_model_bge.bin.gz.008"
       ]
     },
     {
@@ -171,8 +171,8 @@
       "hadiths": 58684,
       "books": 9,
       "parts": [
-        "http://nas.fitrahmedia.nl:5000/fsdownload/8eGjtkbs8/muhaddith_vectors_tisa.bin.gz.001",
-        "http://nas.fitrahmedia.nl:5000/fsdownload/r5fbwU9xI/muhaddith_vectors_tisa.bin.gz.002"
+        "https://muhaddith.murabbie.org/fsdownload/8eGjtkbs8/muhaddith_vectors_tisa.bin.gz.001",
+        "https://muhaddith.murabbie.org/fsdownload/r5fbwU9xI/muhaddith_vectors_tisa.bin.gz.002"
       ]
     },
     {
@@ -187,28 +187,28 @@
       "hadiths": 463733,
       "books": 1400,
       "parts": [
-        "http://nas.fitrahmedia.nl:5000/fsdownload/QwLixy4jf/muhaddith_vectors_full.bin.gz.001",
-        "http://nas.fitrahmedia.nl:5000/fsdownload/qmzOmmMdg/muhaddith_vectors_full.bin.gz.002",
-        "http://nas.fitrahmedia.nl:5000/fsdownload/wUQntkwqK/muhaddith_vectors_full.bin.gz.003",
-        "http://nas.fitrahmedia.nl:5000/fsdownload/qPynBk7ek/muhaddith_vectors_full.bin.gz.004",
-        "http://nas.fitrahmedia.nl:5000/fsdownload/8gKomlF7T/muhaddith_vectors_full.bin.gz.005",
-        "http://nas.fitrahmedia.nl:5000/fsdownload/QAJ4zPcxt/muhaddith_vectors_full.bin.gz.006",
-        "http://nas.fitrahmedia.nl:5000/fsdownload/fOggthyd4/muhaddith_vectors_full.bin.gz.007",
-        "http://nas.fitrahmedia.nl:5000/fsdownload/BIcLvxec4/muhaddith_vectors_full.bin.gz.008",
-        "http://nas.fitrahmedia.nl:5000/fsdownload/ixjvjeJqd/muhaddith_vectors_full.bin.gz.009"
+        "https://muhaddith.murabbie.org/fsdownload/QwLixy4jf/muhaddith_vectors_full.bin.gz.001",
+        "https://muhaddith.murabbie.org/fsdownload/qmzOmmMdg/muhaddith_vectors_full.bin.gz.002",
+        "https://muhaddith.murabbie.org/fsdownload/wUQntkwqK/muhaddith_vectors_full.bin.gz.003",
+        "https://muhaddith.murabbie.org/fsdownload/qPynBk7ek/muhaddith_vectors_full.bin.gz.004",
+        "https://muhaddith.murabbie.org/fsdownload/8gKomlF7T/muhaddith_vectors_full.bin.gz.005",
+        "https://muhaddith.murabbie.org/fsdownload/QAJ4zPcxt/muhaddith_vectors_full.bin.gz.006",
+        "https://muhaddith.murabbie.org/fsdownload/fOggthyd4/muhaddith_vectors_full.bin.gz.007",
+        "https://muhaddith.murabbie.org/fsdownload/BIcLvxec4/muhaddith_vectors_full.bin.gz.008",
+        "https://muhaddith.murabbie.org/fsdownload/ixjvjeJqd/muhaddith_vectors_full.bin.gz.009"
       ]
     }
   ],
   "note": "الأجزاء تُجمع بالترتيب داخل التطبيق؛ sha256_gz هو بصمة الملف المجموع",
   "source": "nas",
-  "folder": "http://nas.fitrahmedia.nl:5000/sharing/ehniFEwJg",
+  "folder": "https://muhaddith.murabbie.org/sharing/ehniFEwJg",
   "app": {
     "version_code": 31,
     "version_name": "0.15.2",
     "notes": "نكهتا nas وplay وملفات متجر Google Play",
     "apk": {
-      "arm32": "http://nas.fitrahmedia.nl:5000/fsdownload/7nq4JCmVr/muhaddith-0.15.2-arm32.apk",
-      "arm64": "http://nas.fitrahmedia.nl:5000/fsdownload/sWvh0Qolo/muhaddith-0.15.2-arm64.apk"
+      "arm32": "https://muhaddith.murabbie.org/fsdownload/7nq4JCmVr/muhaddith-0.15.2-arm32.apk",
+      "arm64": "https://muhaddith.murabbie.org/fsdownload/sWvh0Qolo/muhaddith-0.15.2-arm64.apk"
     },
     "sha256": {
       "arm32": "c1c29c849ec6a31262f565381a3b202446616f8f02a1f1fb5abfaf40369b4dcf",

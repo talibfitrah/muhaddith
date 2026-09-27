@@ -306,11 +306,15 @@ fun SettingsScreen(vm: MuhaddithViewModel, state: UiState, onOpenData: () -> Uni
                 val ver = runCatching { ctx.packageManager.getPackageInfo(ctx.packageName, 0).versionName }.getOrNull() ?: "?"
                 Text("المحدِّث — الإصدار ${ArabicText.arabicDigits(ver)}", style = MaterialTheme.typography.bodyMedium)
                 Spacer(Modifier.height(4.dp))
-                Text("محرّك بحث في الحديث النبوي يعمل على جهازك بلا إنترنت. البيانات من قاعدة «المحدِّث» (muhaddith.murabbie.org) كما هي في نسخة سطح المكتب: ١٤٠٠ كتاب، ٤٦٣٬٧٣٣ رواية، ٤٩٬٨٤٥ راويًا. البحث الصرفي بمعجم المحدِّث (٥٨٧ ألف صورة صرفية). البحث الدلالي (BGE-M3) يعمل على الهاتف بعد تثبيت حزمتيه. الحزم كلها تُنزَّل من داخل التطبيق.",
+                Text("محرّك بحث في الحديث النبوي يعمل على جهازك بلا إنترنت. تطبيق مستقل غير تابع لأي دار نشر أو جهة علمية. النصوص مجموعة من مصادر منشورة: قاعدة أحاديث «المحدِّث» (مسبار)، ومشروع OpenITI، ومصوَّرات المكتبة الوقفية، وhadith-api؛ وفيها ١٤٠٠ كتاب، ٤٦٣٬٧٣٣ رواية، ٤٩٬٨٤٥ راويًا. البحث الصرفي بمعجم المحدِّث (٥٨٧ ألف صورة صرفية). البحث الدلالي (BGE-M3) يعمل على الهاتف بعد تثبيت حزمتيه. الحزم كلها تُنزَّل من داخل التطبيق.",
+                    style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                Spacer(Modifier.height(4.dp))
+                Text("البحث الدلالي بنموذج BGE-M3 من BAAI (رخصة MIT) عبر ONNX Runtime (رخصة MIT).",
                     style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
                 Spacer(Modifier.height(4.dp))
                 Text("تنبيه علمي: التطبيق أداة بحث وترشيح واستكشاف، وليس مصدرًا مستقلًّا للحكم على الحديث.",
                     style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                TextButton(onClick = { runCatching { ctx.startActivity(android.content.Intent(android.content.Intent.ACTION_VIEW, Uri.parse("https://opvoedconsult.com/muhaddith/privacy.html"))) } }) { Text("سياسة الخصوصية") }
             }
         }
     }

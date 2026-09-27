@@ -1,3 +1,5 @@
+import java.util.Properties
+
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
@@ -5,21 +7,21 @@ plugins {
 }
 
 // كلمتا سر التوقيع في keystore.properties بجذر المشروع (خارج git؛ انظر keystore.properties.example)
-val keystoreProps = java.util.Properties().apply {
+val keystoreProps = Properties().apply {
     val f = rootProject.file("keystore.properties")
     if (f.exists()) f.inputStream().use { load(it) }
 }
 
 android {
     namespace = "org.murabbie.muhaddith"
-    compileSdk = 35
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "org.murabbie.muhaddith"
         minSdk = 26
-        targetSdk = 35
-        versionCode = 31
-        versionName = "0.15.2"
+        targetSdk = 36
+        versionCode = 32
+        versionName = "0.15.3"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
@@ -104,7 +106,7 @@ dependencies {
     implementation("androidx.datastore:datastore-preferences:1.1.1")
     implementation("androidx.documentfile:documentfile:1.0.1")
     // البحث الدلالي على الهاتف: تشغيل نموذج التضمين ONNX
-    implementation("com.microsoft.onnxruntime:onnxruntime-android:1.19.2")
+    implementation("com.microsoft.onnxruntime:onnxruntime-android:1.21.1")
     // محرّك SQLite مدمج يضمن FTS5 على كل الأجهزة بدل الاعتماد على نسخة النظام
     implementation("com.github.requery:sqlite-android:3.49.0")
     debugImplementation("androidx.compose.ui:ui-tooling")
