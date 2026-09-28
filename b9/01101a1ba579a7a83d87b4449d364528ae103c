@@ -1,0 +1,19 @@
+.gitignore
+  s_da28b406d9d6e9::t_0c12250ca9aedf 20-22
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "b901101a1ba579a7a83d87b4449d364528ae103c",
+  "prompts": {},
+  "sessions": {
+    "s_da28b406d9d6e9": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "89b37af1-bfab-4036-995e-a32d54c9bade",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "talibfitrah <fitrahtvnl@gmail.com>"
+    }
+  }
+}
