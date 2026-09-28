@@ -82,7 +82,7 @@ object KnownPacks {
     // @@SEMANTIC_CONSTANTS@@
     const val MODEL_PARTS = 8; const val MODEL_GZ = 236725409L; const val MODEL_RAW = 344973261L; const val MODEL_SHA = "62d13cfc55f43389095ddf8194de2a54ca2daef7a6724d41a3b8e8313b2b7123"
     const val VT_PARTS = 2; const val VT_GZ = 44797144L; const val VT_RAW = 60561920L; const val VT_SHA = "9ccbc2f5b64ce2048c146a8d0dcb63904662d378e25f3065c795155ef363e0ae"
-    const val VF_PARTS = 9; const val VF_GZ = 266819584L; const val VF_RAW = 478572488L; const val VF_SHA = "647221d79a472ca8fb0f7fde02a60bfc8202a692569882e2a8a915685ac0cfbd"
+    const val VF_PARTS = 12; const val VF_GZ = 361376223L; const val VF_RAW = 478572488L; const val VF_SHA = "b4d6b05b052bacf60475bdb89e402d355f8188bb76223fa84ca4d03924d7f582"
     // @@END_SEMANTIC_CONSTANTS@@
 
     /** يتعرّف على اسم جزء ولو أضاف المتصفح لاحقة مثل « (1)»: يعيد (الحزمة، رقم الجزء) */
